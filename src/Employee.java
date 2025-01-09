@@ -36,6 +36,7 @@ public class Employee extends Person  {
     public double getPaymentAmount() {
         return salary;
     }
+
     @Override
     public int compareTo(Payable other) {
         if (other instanceof Employee) {

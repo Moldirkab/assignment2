@@ -27,6 +27,7 @@ public class MyApplication {
         printData(people);
     }
 
+
     public static void printData(Iterable<Payable> payables) {
         payables.forEach(payable -> {
             System.out.println(payable.toString() +  " earns " + payable.getPaymentAmount() + " tenge");

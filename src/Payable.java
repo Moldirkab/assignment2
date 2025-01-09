@@ -1,4 +1,4 @@
 public interface Payable {
-    double getPaymentAmount(); // Әдістің декларациясы
+    double getPaymentAmount();
 }
 
