@@ -6,6 +6,7 @@ import java.util.List;
 public class MyApplication {
 
     public static void main(String[] args) throws NullPointerException {
+        System.out.println("Welcome to MyApplication!");
         List<Payable> people = new ArrayList<>();
             people.add(new Employee("John", "Lennon", "lawyer", 27045.78));
             people.add(new Employee("George", "Harrison", "teacher", 50000.00));
